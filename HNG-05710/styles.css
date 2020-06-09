@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --lightgray:#f1f1f1;
+    --gray:#272727;
+    --blue:#339AF9;
+    --dullgray:#aca0a0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height:8vh ;
+    padding-top: 2%;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    z-index: 999;
+}
+.nav-links li{
+      list-style-type:none; 
+      margin: 10px;
+}
+#logo {
+    color:var(--lightgray);
+    font-size: 1.5rem; 
+    margin: 10px;
+}
+.nav-links a {
+    color:var(--lightgray);
+    text-decoration: none;
+    letter-spacing: 3px;
+    transition:color,font-size 0.5s ease-in;
+}
+.location {
+    margin-left: 100px!important;
+    margin-right:20px!important;
+}
+.img {
+    background-repeat: no-repeat;
+    height: 53%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+#sec-1 {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(img/nik-lanus-YMOHw3F1Hdk-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+#info-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+}
+#info-1 div h1 {
+    color:var(--lightgray);
+    font-size: 5rem; 
+    font-weight: 900;
+    padding-block-end: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#info-2 {
+    margin: 5%;
+}
+.text {
+    color:var(--lightgray);
+}
+#sec-2 {
+    width: 100%;
+    height: 100vh;
+}
+
+#h1-2 {
+    color:var(--gray);
+    font-size: 2rem; 
+    font-weight: 900;
+}
+.text-2 {
+    color:var(--gray);
+    font-size: 1rem;
+    font-weight: 900; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.infos {
+    margin: 0% 5% 20% 5%;
+    color:var(--gray);
+    font-weight: 900;
+    border: 1px solid var(--dullgray);
+    border-radius: 10px;
+}
+.price {
+    color: var(--dullgray);
+    margin: 5px 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.img-info {
+    margin: 20px;
+}
+.h3 {
+    color: var(--blue);
+    margin-top:15px ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+footer {
+    background-color: var(--blue);
+    padding: 3% 10%;
+}
+footer h5 {
+    margin-bottom: 12px;
+    text-transform: uppercase;
+  }
+  
+  footer section {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+  
+  footer .sub-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .sub-container div:first-of-type {
+    margin-bottom: 40px;
+  }
+  
+  .subscription-container {
+    width: 400px;
+    max-width: 100%;
+  }
+  
+  .subscription-container div {
+    width: 100%;
+    border-radius: 6px;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .subscription-container div div {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  .subscription-container input {
+    border: none;
+  }
+  
+  #footer-input:focus {
+    border: none;
+    outline: none;
+  }
+  
+  .subscription-container button {
+    border: none;
+    padding: 10px 16px;
+    background-color: var(--blue);
+    border-radius: 4px;
+    color: white;
+  }
+  
+  
+  .copyright {
+    display: flex;
+    align-items: center;
+    font-size: 0.8em;
+  }
+  
+  .copyright img {
+    margin-right: 10px;
+  }
+  .copyright span {
+    color: white;
+    font-weight: 500;
+  }
+  ul li {
+    font-weight: 500!important;
+      list-style-type: none;
+      color: white;
+      line-height: 30px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  h5 {
+    font-size:1rem;
+    margin: 2px!important;
+    font-weight: 900!important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+  @media (max-width: 754px) {
+    .subscription-container {
+      margin-top: 30px;
+    }
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
